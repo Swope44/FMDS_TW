@@ -22,6 +22,16 @@ docker compose up --build
 
 The dashboard will be served at <http://localhost:8080>.
 
+## Testing
+
+```bash
+cd frontend
+npm test
+```
+
+Runs unit tests with [Vitest](https://vitest.dev).
+
+
 ## Design
 
 Visual design reference: <https://www.figma.com/design/i5biCgUXghM0zp1gpOzoG8/KPI-UI?node-id=5-16&m=dev>
